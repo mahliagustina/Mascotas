@@ -12,6 +12,6 @@ let edadAproximada = prompt("Edad aproximada del animal")
 
 let ficha = `El usuario nuevo es ${nombreIngresado}, su mail de contacto es ${correoElectronico}, el animal encontrado es ${animaPerdido}, la zona donde fue hallado es ${zonaPerdido}, el color de su pelaje es ${colorPelo}, y la edad aproximada es ${edadAproximada}`
 
-alert (`Tu caso fue resgistrado con éxito. !Muchas gracias ${nombreIngresado}!`);
+alert (`Tu caso fue resgistrado con éxito. Muchas gracias ${nombreIngresado}!`);
 
 console.log(ficha)
