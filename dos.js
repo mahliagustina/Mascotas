@@ -2,15 +2,16 @@ let nombreIngresado = prompt("Ingresá tu nombre")
 
 let correoElectronico = prompt("Ingresá un mail de contacto")
 
-let animalEncontrado = prompt("Animal perdido")
+let animalPerdido = prompt("Animal perdido")
 
-let zonaEncontrado = prompt("Zona donde se perdió")
+let zonaPerdido = prompt("Zona donde se perdió")
 
 let colorPelo = prompt("Color de su pelaje")
 
 let edadAproximada = prompt("Edad aproximada del animal")
 
-let ficha = `El usuario nuevo es ${nombreIngresado}, su mail de contacto es ${correoElectronico}, el animal encontrado es ${animalEncontrado}, la zona donde fue hallado es ${zonaEncontrado}, el color de su pelaje es ${colorPelo}, y la edad aproximada es ${edadAproximada}`
+let ficha = `El usuario nuevo es ${nombreIngresado}, su mail de contacto es ${correoElectronico}, el animal encontrado es ${animaPerdido}, la zona donde fue hallado es ${zonaPerdido}, el color de su pelaje es ${colorPelo}, y la edad aproximada es ${edadAproximada}`
 
 alert (`Tu caso fue resgistrado con éxito. !Muchas gracias ${nombreIngresado}!`);
+
 console.log(ficha)
