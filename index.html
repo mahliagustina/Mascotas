@@ -56,16 +56,16 @@
             
               
             <div class="integrante-equipo">
-                <div class="integrante-foto"><img src="./media/fergermanier-equipo.jpeg" alt="Fernanda Germanier"></div>
+                <div class="integrante-foto"><img src="media/fergermanier-equipo.jpeg" alt="Fernanda Germanier"></div>
                 <div class="integrante-info"><h4>Fernanda Germanier</h4>
                 </div>
             </div>
-
+<!-- 
             <div class="integrante-equipo">
                 <div class="integrante-foto"><img src="./media/melanyernalz-equipo.png" alt="Melany Ernalz"></div>
                 <div class="integrante-info"><h4>Melany Ernalz</h4>
                 </div>
-            </div>
+            </div> -->
 
             <div class="integrante-equipo">
                 <div class="integrante-foto"><img src="./media/agustinamahli-equipo.png" alt="Agustina Mahli"></div>
@@ -102,6 +102,38 @@
         </div>
     </section>
 
+    <!-- Seccion registro -->
+    <section class="formReportarPerdida">
+
+        <h3 > Contactanos! </h3>
+        <div>
+            <form id="formularioReportarPerdida">
+                <div>
+                    <label for="nombreReportePerdida"> Nombre:</label>
+                    <input type="text" id="nombreReportePerdida" required>
+                </div>
+                <div>
+                    <label for="emailReportePerdida">Email:</label>
+                    <input type="email" id="emailReportePerdida" required>
+                </div>
+                <div>
+                    <label for="animalPerdido">Animal perdido:</label>
+                    <input type="text" id="animalPerdido" required>
+                </div>
+                <div>
+                    <label for="zonPerdida">Zona donde se perdió:</label>
+                    <input type="text" id="zonaPerdida" required>
+                </div>
+                <div>
+                    <input type="submit" value="Registrar" class="bottonPerdido">
+                </div>
+            </form>
+                <div id="informacionReportePerdida">
+                    <h3 id="h3ReportePerdida"></h3>
+                    <p id="pReportePerdida"></p>
+                </div>
+        </div>
+    </section>
 
 </main>
 
@@ -115,7 +147,7 @@
 <!-- script -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
+ <script src="js/dos.js"></script>
 
 </body>
 </html>

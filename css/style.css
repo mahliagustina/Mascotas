@@ -389,44 +389,51 @@ font-weight: bolder;
 /*Página Contacto*/
 
 /* Formulario */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a782d3; /* Color de fondo lila */
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Color del texto */
+}
 
-.body-form {
-    background-color: white;
+.contenedor {
+    background-color: #6a4e92; /* Color de fondo lila oscuro para el formulario */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-}
-.contacto-titulo{
-    color: white;
-    background-color: blueviolet;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    font-weight: bolder;
+
+.contenedor input[type="text"],
+.contenedor input[type="email"] {
     width: 100%;
-    height: 50px;
-    text-align: center;
-    margin-inline: 10px;
-    margin-top: 10px;
-}
-.contacto-form {
-    display: flex;
-    justify-content: center;
-}
-.formulario .contacto-recuadro {
-    margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    background: linear-gradient(blueviolet, rgb(253, 119, 235));
-    background: linear-gradient(blueviolet, antiquewhite);
-    border-color: blueviolet;
     padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff; /* Color de fondo blanco para los campos de entrada */
+    color: #333333; /* Color del texto en los campos de entrada */
 }
+
+.contenedor input[type="submit"] {
+    width: 100%;
+    background-color: #ff8c00; /* Color de fondo naranja para el botón de enviar */
+    color: #ffffff; /* Color del texto en el botón de enviar */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.datos {
+    background-color: #6a4e92; /* Color de fondo lila oscuro para el área de datos guardados */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Footer */
 .p-footer  {
     width: 100%;
@@ -648,7 +655,31 @@ padding-top: 15px;
     }
     }
 
+    .formReportarPerdida {
+    
+        text-align: center;
+      
+        background-color: #a782d3;
+        font-size: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+     .formReportarPerdida h3 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+     }
 
+     .formReportarPerdida form {
+       text-align: start;
+       margin-left: 500px;
+       
+     }
+    
+     .bottonPerdido {
+        color: #ff8c00 ;
+
+     }
 /*media queries página Contacto y footer*/
 
 /* / Extra small devices (pantalla celular vertical, menos de 576px) */
@@ -669,6 +700,7 @@ padding-top: 15px;
         flex-direction: column;
     }
    
+
      /* mobile footer */
     
      .footer {
